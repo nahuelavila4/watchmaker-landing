@@ -1,0 +1,76 @@
+html {
+  font-size: 62.5%;
+  font-family: "Fira Sans", sans-serif;
+}
+h1 {
+  font-size: 5em;
+  font-weight: bold;
+}
+p {
+  font-size: 1.5em;
+  margin: 0;
+  /* max-width: 18em; */
+}
+.separacion-secciones {
+  margin: 12em 0;
+}
+
+.header-img {
+  padding: 6em 0;
+}
+.header-img img {
+  margin: 0 1.8em;
+  max-width: 40em;
+  min-width: 15em;
+  border-radius: 1.8em;
+}
+.header-titulo{
+  margin-top: 0;
+}
+header .qwe {
+  width: 45%;
+  text-align: center;
+}
+
+.formulario-reg {
+  padding: 2em 2.6em 4em 2.6em;
+  background-color: #dc3545;
+  border-radius: 0.8em;
+}
+.formulario-text,
+.formulario-reg {
+  width: 100%;
+  min-width: 300px;
+  max-width: 500px;
+}
+
+/* Relojes articulos */
+.relojes img {
+  width: 24em;
+  border-radius: 0.8em;
+}
+.relojes p {
+  width: 12em;
+}
+
+@media screen and (max-width: 576px) {
+  .reloj-img {
+    margin-bottom: 2em;
+  }
+  .header-img {
+    padding: 3em 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header-img {
+    padding: 3em 0 4em 0;
+  }
+  .header-titulo{
+    margin-top: 2em;
+  }
+}
+@media screen and (max-width: 992px) {
+  .primero {
+    margin-bottom: 3em;
+  }
+}
